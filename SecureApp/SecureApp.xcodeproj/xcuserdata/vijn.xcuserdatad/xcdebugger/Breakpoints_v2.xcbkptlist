@@ -7,144 +7,224 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "0689F87B-6E16-41AB-85F1-9B12FF5DB55F"
+            uuid = "895285CB-2276-41F1-B350-96C4DC23A580"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SecureApp/KeychainHelper.swift"
+            filePath = "SecureApp/3.SSL Pinning/SSLPinningManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "82"
-            endingLineNumber = "82"
-            landmarkName = "retrieveFromKeychain(service:)"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "urlSession(_:didReceive:completionHandler:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "2C0021CF-782B-4226-B08D-BD764C74820A"
+            uuid = "C3E747AD-5674-4B88-BD8D-C91BDCAD45F0"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SecureApp/KeychainHelper.swift"
+            filePath = "SecureApp/3.SSL Pinning/SSLPinningManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
-            landmarkName = "retrieveFromKeychain(service:)"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "urlSession(_:didReceive:completionHandler:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "BF24C413-A575-4D42-9293-F3D95563A771"
+            uuid = "C69840C1-F9FA-4497-98AC-B883BB3706A5"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SecureApp/KeychainHelper.swift"
+            filePath = "SecureApp/3.SSL Pinning/SSLPinningManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "73"
-            endingLineNumber = "73"
-            landmarkName = "retrieveFromKeychain(service:)"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "urlSession(_:didReceive:completionHandler:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "604349B9-86AC-40ED-B89C-C9211E460812"
+            uuid = "F4ED042B-0FA4-486D-9924-B74546738C78"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SecureApp/KeychainHelper.swift"
+            filePath = "SecureApp/3.SSL Pinning/SSLPinningManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "70"
-            endingLineNumber = "70"
-            landmarkName = "retrieveFromKeychain(service:)"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "urlSession(_:didReceive:completionHandler:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "D869E2BB-E107-49CB-99A2-AAB2E2B16394"
+            uuid = "725570FE-33F7-451D-8063-3D781CDD11CF"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SecureApp/2.NetwokCommunication/NetworkHTTPSCheckView.swift"
+            filePath = "SecureApp/3.SSL Pinning/SSLPinningManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
-            landmarkName = "fetchImage()"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "urlSession(_:didReceive:completionHandler:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "DBD41118-9FE5-4F72-B5A6-0649CA6428AF"
+            uuid = "ACE1FD0A-4E44-4EF8-A7B7-2F2006E4D8F1"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SecureApp/2.NetwokCommunication/NetworkHTTPSCheckView.swift"
+            filePath = "SecureApp/3.SSL Pinning/SSLPinningManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
-            landmarkName = "fetchImage()"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "callAnyApi(urlString:isCertificatePinning:response:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "0B0CC76D-C6E2-4ECB-8AD5-E8CB26CA3F2A"
+            uuid = "3E6D5068-C573-4EF8-B365-7E4A8C0AB609"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SecureApp/2.NetwokCommunication/NetworkHTTPSCheckView.swift"
+            filePath = "SecureApp/3.SSL Pinning/SSLPinningManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84"
-            landmarkName = "fetchUser()"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "callAnyApi(urlString:isCertificatePinning:response:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "2E3A608C-1331-48F7-A614-62C847160A39"
+            uuid = "2D67F2D5-F380-4F19-BBAB-A2B4D39DD69A"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SecureApp/2.NetwokCommunication/NetworkHTTPSCheckView.swift"
+            filePath = "SecureApp/3.SSL Pinning/SSLPinningManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "92"
-            endingLineNumber = "92"
-            landmarkName = "fetchUser()"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "callAnyApi(urlString:isCertificatePinning:response:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "60298A48-B22E-4865-AB49-41F822752B9E"
+            uuid = "019344A8-DCFC-4AE9-AD0B-D1356A87B947"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SecureApp/2.NetwokCommunication/NetworkHTTPSCheckView.swift"
+            filePath = "SecureApp/3.SSL Pinning/SSLPinningManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "99"
-            endingLineNumber = "99"
-            landmarkName = "fetchUser()"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "callAnyApi(urlString:isCertificatePinning:response:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "671A323E-DD6C-440B-9F20-6E2373EDE914"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SecureApp/3.SSL Pinning/SSLPinningManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
+            landmarkName = "checkSSLPinningInCombineFlow(urlString:isCertificatePinning:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D2EF48A1-6DAB-44F5-9A92-0ADE68D2D607"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SecureApp/3.SSL Pinning/SSLPinningManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
+            landmarkName = "checkSSLPinningInCombineFlow(urlString:isCertificatePinning:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "56501CA1-2C2D-472D-A7B7-D96DCDEAF4ED"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SecureApp/3.SSL Pinning/SSLPinningManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
+            landmarkName = "checkSSLPinningInCombineFlow(urlString:isCertificatePinning:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A90D091C-7839-49A9-99CC-643B0472B5AD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SecureApp/3.SSL Pinning/SSLPinningManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "checkSSLPinningInCombineFlow(urlString:isCertificatePinning:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5734CB9E-BE2D-40C9-A9CB-05A443FD96C0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SecureApp/3.SSL Pinning/SSLPinningManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
+            landmarkName = "checkSSLPinningInCombineFlow(urlString:isCertificatePinning:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

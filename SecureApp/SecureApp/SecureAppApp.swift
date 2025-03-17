@@ -11,8 +11,8 @@ import SwiftUI
 struct SecureAppApp: App {
     var body: some Scene {
         WindowGroup {
-//            ContentView()
-            DataStorageView(viewModel: DataStorageViewModel())
+            ContentView()
+//            DataStorageView(viewModel: DataStorageViewModel())
         }
     }
 }

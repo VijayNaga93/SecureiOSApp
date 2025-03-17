@@ -1,0 +1,23 @@
+
+
+How to Secure an iOS App?
+
+Security is critical for protecting user data, preventing unauthorized access, and ensuring compliance with privacy regulations. Below are key areas to focus on when securing an iOS app.
+
+
+******
+
+1️⃣ Secure Data Storage
+🔹 Avoid Storing Sensitive Data in UserDefaults
+✅ Use Keychain Instead:
+
+******
+
+2️⃣ Secure Network Communication
+🔹 Use HTTPS (SSL/TLS)
+Always use HTTPS (not HTTP) for network requests.
+Enable App Transport Security (ATS) to enforce SSL.
+
+
+
+

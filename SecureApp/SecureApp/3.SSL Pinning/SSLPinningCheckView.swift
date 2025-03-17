@@ -9,7 +9,16 @@ import SwiftUI
 
 struct SSLPinningCheckView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Button("Check SSL") {
+                
+//                SSlPinningManager.shared.callAnyApi(urlString: "https://www.google.com", isCertificatePinning: false) { (response) in
+//                    print(response)
+//                }
+                
+                SSlPinningManager.shared.checkSSLPinningInCombineFlow(urlString: "https://www.google.com", isCertificatePinning: false)
+            }
+        }
     }
 }
 

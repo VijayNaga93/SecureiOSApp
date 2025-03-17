@@ -18,6 +18,27 @@ Security is critical for protecting user data, preventing unauthorized access, a
 Always use HTTPS (not HTTP) for network requests.
 Enable App Transport Security (ATS) to enforce SSL.
 
+******
+
+
+3️⃣ SSL Certificate Pinning
+Protect against Man-in-the-Middle (MITM) attacks by using SSL Certificate Pinning.
+GTS_Root_R1.cer used in this project is "https://www.google.com" link certificate which is taken from safari.
+
+Reference:
+https://www.youtube.com/watch?v=HWJ3cCNdKKA
+https://www.youtube.com/watch?v=kNHZDzQOii4
+
+Types of SSL Pinning:
+1. SSL Pinning using Certificate
+2. SSL Pinning using server Public key
+
+******
+
+4️⃣ Protect Against Jailbreak Exploits
+🔹 Detect Jailbroken Devices
+Jailbroken devices allow attackers to modify app behavior.
 
 
 
+******

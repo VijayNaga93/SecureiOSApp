@@ -12,12 +12,23 @@ struct ContentView: View {
         NavigationView {
             ScrollView {
                 VStack(spacing: 20) {
+                    
                     NavigationLink("1. Keychain") {
                         DataStorageView(viewModel: DataStorageViewModel())
                     }
+                    
                     NavigationLink("2. Network Check HTTPS") {
                         NetworkHTTPSCheckView()
                     }
+                    
+                    NavigationLink("3. SSL Pinning") {
+                        SSLPinningCheckView()
+                    }
+                    
+                    NavigationLink("4. Jail Broken Detect") {
+                        JainBrokenDetectView()
+                    }
+                    
                 }
             }
             .padding()

@@ -40,5 +40,26 @@ Types of SSL Pinning:
 Jailbroken devices allow attackers to modify app behavior.
 
 
+******
+
+5️⃣ Secure User Authentication
+🔹 Use Biometric Authentication (Face ID/Touch ID)
+Use Case: Adds an extra layer of security before accessing sensitive data.
+
+
+Your Info.plist file should look something like this:
+
+<key>Privacy - Face ID Usage Description</key>
+<string>This app uses Face ID for secure authentication.</string>
+
+Testing Biometric Authentication:
+
+To test biometric authentication on the iOS Simulator:
+
+1. Enable Face ID: Go to Simulator > Features > Face ID > Enrolled
+2. Test with a Matching Face: Go to Simulator > Features > Face ID > Matching Face
+3. Test with a Non-matching Face: Go to Simulator > Features > Face ID > Non-matching Face
+
+
 
 ******

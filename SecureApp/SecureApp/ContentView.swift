@@ -29,6 +29,12 @@ struct ContentView: View {
                         JainBrokenDetectView()
                     }
                     
+                    NavigationLink("5. Secure Authorization Bio-Metric") {
+                        SecureBioCheckView()
+                    }
+                    
+                    
+                    
                 }
             }
             .padding()

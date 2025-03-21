@@ -63,3 +63,30 @@ To test biometric authentication on the iOS Simulator:
 
 
 ******
+
+6️⃣ Screenshot block
+
+https://medium.com/@insub4067/implementing-screenshot-prevention-in-swiftui-9068ab302ffd
+
+🔹 Disable Screenshots and Screen Recording
+Prevent sensitive data from being recorded or screenshotted.
+
+
+******
+
+7️⃣ Screen record block - code not working
+
+
+
+******
+
+8️⃣ Additional Security Best Practices
+✔️ Use HTTPS & SSL Pinning
+✔️ Avoid Hardcoded Secrets
+✔️ Regularly Update Dependencies (patch security vulnerabilities)
+✔️ Implement Rate Limiting (prevents brute force attacks)
+✔️ Use Secure Storage (Keychain, Secure Enclave)
+
+
+
+******

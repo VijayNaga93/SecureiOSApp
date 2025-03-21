@@ -33,6 +33,14 @@ struct ContentView: View {
                         SecureBioCheckView()
                     }
                     
+                    NavigationLink("6. Screen shot block") {
+                        ScreenShotBlockView()
+                    }
+                    
+                    NavigationLink("7. Screen Record block") {
+                        ScreenRecordBlockView()
+                    }
+                    
                     
                     
                 }

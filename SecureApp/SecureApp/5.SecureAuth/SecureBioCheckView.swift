@@ -37,16 +37,19 @@ class BiometricCheckManager {
         context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: "Authenticate") { isSuccess, error in
             guard error == nil else
             {
-                print("Biometric validation error: \(String(describing: error?.localizedDescription))")
+                compilerDebugPrint("Biometric validation error: \(String(describing: error?.localizedDescription))")
                 completionHandler(false)
                 return
             }
             if isSuccess {
-                print("Authentication Successful")
+                compilerDebugPrint("Authentication Successful")
             } else {
-                print("Authentication Failed")
+                compilerDebugPrint("Authentication Failed")
             }
             completionHandler(isSuccess)
         }
     }
 }
+
+
+

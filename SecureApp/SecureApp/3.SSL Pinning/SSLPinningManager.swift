@@ -69,7 +69,7 @@ class SSlPinningManager: NSObject,URLSessionDelegate {
             
             let localCertiData = NSData(contentsOfFile: pathToCertificate)
             if isSecuredServer && remoteCertiData.isEqual(to:localCertiData! as Data)  {
-                print("Certificate   Pinning Completed Successfully")
+                compilerDebugPrint("Certificate   Pinning Completed Successfully")
                 
                 completionHandler(.useCredential, URLCredential.init(trust: serverTrust))
             }else{
@@ -84,7 +84,7 @@ class SSlPinningManager: NSObject,URLSessionDelegate {
                 let data:Data = serverPublicKeyData as! Data
                 let serverHashKey = sha256(data: data)
                 if serverHashKey == self.hardcodedPublicKey {
-                    print("public key Pinning Completed Successfully")
+                    compilerDebugPrint("public key Pinning Completed Successfully")
                     completionHandler(.useCredential, URLCredential.init(trust: serverTrust))
                 }else{
                     completionHandler(.cancelAuthenticationChallenge,nil)
@@ -140,16 +140,16 @@ class SSlPinningManager: NSObject,URLSessionDelegate {
             .sink { completion in
                 switch completion {
                 case .finished:
-                    print("Api fetch finished")
+                    compilerDebugPrint("Api fetch finished")
                 case .failure(let err):
                     if err.localizedDescription == "cancelled" {
-                        print("ssl Pinning failed")
+                        compilerDebugPrint("ssl Pinning failed")
                     } else {
                         print(err.localizedDescription)
                     }
                 }
             } receiveValue: { value in
-                print("Value-->\(value)")
+                compilerDebugPrint("Value-->\(value)")
             }
             .store(in: &cancellables)
     }

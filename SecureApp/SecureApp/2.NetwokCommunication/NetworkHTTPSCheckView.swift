@@ -58,17 +58,17 @@ class NetworkHTTPSCheckViewModel: ObservableObject {
             .sink(receiveCompletion: { subscriber in
                 switch subscriber {
                 case .finished:
-                    print("Api --> finished")
+                    compilerDebugPrint("Api --> finished")
                 case .failure(let err):
-                    print("Api -->\(err)")
+                    compilerDebugPrint("Api -->\(err)")
                 }
             }, receiveValue: { data in
                 
-                print("Start")
+                compilerDebugPrint("Start")
                 print(data)
-                print("Middle")
+                compilerDebugPrint("Middle")
                 debugPrint(data)
-                print("End")
+                compilerDebugPrint("End")
             })
             .store(in: &cancellables)
         
@@ -91,7 +91,7 @@ class NetworkHTTPSCheckViewModel: ObservableObject {
             .sink { completion in
                 switch completion {
                 case .finished:
-                    print("Api fetch finished")
+                    compilerDebugPrint("Api fetch finished")
                 case .failure(let err):
                     print(err.localizedDescription)
                 }
@@ -110,7 +110,7 @@ public func safePrint(_ items: String..., filename: String = #file, function : S
     let output = items.map { "\($0)" }.joined(separator: separator)
     Swift.print(pretty+output, terminator: terminator)
 #else
-    Swift.print("RELEASE MODE")
+    Swift.compilerDegubPrint("RELEASE MODE")
 #endif
 }
 

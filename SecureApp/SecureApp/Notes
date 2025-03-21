@@ -80,7 +80,19 @@ Prevent sensitive data from being recorded or screenshotted.
 
 ******
 
-8️⃣ Additional Security Best Practices
+8️⃣ Other Added:
+1. Always use complier Debug print:
+#if DEBUG
+print("log")
+#endif
+
+2. App Switcher Snapshot Controls
+
+3. 
+
+******
+
+9️⃣ Additional Security Best Practices
 ✔️ Use HTTPS & SSL Pinning
 ✔️ Avoid Hardcoded Secrets
 ✔️ Regularly Update Dependencies (patch security vulnerabilities)
@@ -88,5 +100,5 @@ Prevent sensitive data from being recorded or screenshotted.
 ✔️ Use Secure Storage (Keychain, Secure Enclave)
 
 
-
 ******
+

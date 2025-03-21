@@ -48,10 +48,10 @@ class KeychainHelper {
         
         
         if SecItemAdd(query as CFDictionary, nil) == noErr {
-            print("Keychain - data save successfully")
+            compilerDebugPrint("Keychain - data save successfully")
             return true
         } else {
-            print("Keychain - Something went wrong data save failed")
+            compilerDebugPrint("Keychain - Something went wrong data save failed")
             return false
         }
     }
@@ -73,12 +73,12 @@ class KeychainHelper {
                 if let service = existingItem[kSecAttrService as String] as? String,
                    let data = existingItem[kSecValueData as String] as? Data,
                    let dataStr = String(data: data, encoding: .utf8) {
-                    print("KeychainCheck - service:\(service) - data:\(dataStr)")
+                    compilerDebugPrint("KeychainCheck - service:\(service) - data:\(dataStr)")
                     return .success(data)
                 }
             }
         }
-        print("Keychain - Something went wrong data retreive failed")
+        compilerDebugPrint("Keychain - Something went wrong data retreive failed")
         return .failure(.keychainErrorSomethingWentWrong)
     }
     
@@ -91,10 +91,10 @@ class KeychainHelper {
         let attributes: [String: Any] = [kSecValueData as String: data]
         
         if SecItemUpdate(query as CFDictionary, attributes as CFDictionary) == noErr {
-            print("Keychain - update successful")
+            compilerDebugPrint("Keychain - update successful")
             return true
         } else {
-            print("Keychain - Something went wrong update failed")
+            compilerDebugPrint("Keychain - Something went wrong update failed")
             return false
         }
     }
@@ -106,10 +106,10 @@ class KeychainHelper {
         ]
                 
         if SecItemDelete(query as CFDictionary) == noErr {
-            print("Keychain - delete successful")
+            compilerDebugPrint("Keychain - delete successful")
             return true
         } else {
-            print("Keychain - Something went wrong delete failed")
+            compilerDebugPrint("Keychain - Something went wrong delete failed")
             return false
         }
     }

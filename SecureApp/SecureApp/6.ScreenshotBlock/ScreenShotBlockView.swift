@@ -37,7 +37,11 @@ struct ScreenShotBlockView: View {
 }
 
 
-
+/*
+ Note trigger screenshot using this like realtime device screenshot:
+ 
+ Go to Simulator > Device > Trigger Screenshot
+ */
 
 public struct ScreenshotPreventView<Content: View>: UIViewRepresentable {
     

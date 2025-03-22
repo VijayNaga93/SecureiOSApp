@@ -13,3 +13,10 @@ func compilerDebugPrint(_ value: Any) {
     print("Debug Print: \(value)")
     #endif
 }
+
+class CheckPrint {
+    
+    func check() {
+        compilerDebugPrint("Checked")
+    }
+}

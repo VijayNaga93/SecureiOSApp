@@ -18,6 +18,11 @@ Security is critical for protecting user data, preventing unauthorized access, a
 Always use HTTPS (not HTTP) for network requests.
 Enable App Transport Security (ATS) to enforce SSL.
 
+ Note:
+ Try http and https url's
+ https will success
+ http will fail
+ 
 ******
 
 
@@ -66,11 +71,10 @@ To test biometric authentication on the iOS Simulator:
 
 6️⃣ Screenshot block
 
-https://medium.com/@insub4067/implementing-screenshot-prevention-in-swiftui-9068ab302ffd
-
 🔹 Disable Screenshots and Screen Recording
 Prevent sensitive data from being recorded or screenshotted.
 
+Go to Simulator > Device > Trigger Screenshot
 
 ******
 

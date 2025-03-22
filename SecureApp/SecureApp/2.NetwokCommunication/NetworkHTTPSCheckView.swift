@@ -14,23 +14,20 @@ struct NetworkHTTPSCheckView: View {
     
     var body: some View {
         VStack {
-            Button("Download Image") {
-                //                Task {
-                //                    NetworkHTTPSCheckViewModel.init().fetchImage()
-                //                    NetworkHTTPSCheckViewModel.init().fetchUser()
-                
-                //                    NetworkHTTPSCheckViewModel.shared.fetchUser()
-                //                    NetworkHTTPSCheckViewModel.shared.fetchImage()
-                
+            Button("Check api call") {
                 viewModel.fetchUser()
-                //                    viewModel.fetchImage()
-                
-                //                }
-                
+                viewModel.fetchImage()
             }
         }
     }
 }
+
+/*
+ Note:
+ Try http and https url's
+ https will success
+ http will fail
+ */
 
 #Preview {
     NetworkHTTPSCheckView()
@@ -100,35 +97,10 @@ class NetworkHTTPSCheckViewModel: ObservableObject {
             }
             .store(in: &cancellables)
     }
-    
-}
-
-
-public func safePrint(_ items: String..., filename: String = #file, function : String = #function, line: Int = #line, separator: String = " ", terminator: String = "\n") {
-#if DEBUG
-    let pretty = "\(URL(fileURLWithPath: filename).lastPathComponent) [#\(line)] \(function)\n\t-> "
-    let output = items.map { "\($0)" }.joined(separator: separator)
-    Swift.print(pretty+output, terminator: terminator)
-#else
-    Swift.compilerDegubPrint("RELEASE MODE")
-#endif
 }
 
 
 struct UserModel: Codable, Identifiable {
-    //    let id: Int
-    //    init(from decoder: any Decoder) throws {
-    //        let container = try decoder.container(keyedBy: CodingKeys.self)
-    //        self.name = try container.decode(String.self, forKey: .name)
-    //        self.username = try container.decode(String.self, forKey: .username)
-    //        self.email = try container.decode(String.self, forKey: .email)
-    //        self.address = try container.decode(Address.self, forKey: .address)
-    //        self.phone = try container.decode(String.self, forKey: .phone)
-    //        self.website = try container.decode(String.self, forKey: .website)
-    //        self.company = try container.decode(Company.self, forKey: .company)
-    //    }
-    //    let id = UUID()
-    
     var id: Int
     let name: String
     let username: String

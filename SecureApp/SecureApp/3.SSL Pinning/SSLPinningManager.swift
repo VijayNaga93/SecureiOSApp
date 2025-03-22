@@ -10,8 +10,6 @@ import Security
 import CommonCrypto
 import Combine
 
-
-
 class SSlPinningManager: NSObject,URLSessionDelegate {
     
     static let shared = SSlPinningManager()
@@ -119,11 +117,9 @@ class SSlPinningManager: NSObject,URLSessionDelegate {
                     
                 }
             }
-            
         }
         task.resume()
     }
-    
     
     //    MARK: - Combine flow :
     
@@ -153,7 +149,5 @@ class SSlPinningManager: NSObject,URLSessionDelegate {
             }
             .store(in: &cancellables)
     }
-    
-    
 }
 

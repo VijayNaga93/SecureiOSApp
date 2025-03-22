@@ -28,6 +28,16 @@ struct SecureBioCheckView: View {
     SecureBioCheckView()
 }
 
+/*
+ Note:
+ To test biometric authentication on the iOS Simulator:
+
+ 1. Enable Face ID: Go to Simulator > Features > Face ID > Enrolled
+ 2. Test with a Matching Face: Go to Simulator > Features > Face ID > Matching Face
+ 3. Test with a Non-matching Face: Go to Simulator > Features > Face ID > Non-matching Face
+
+ */
+
 
 class BiometricCheckManager {
     
